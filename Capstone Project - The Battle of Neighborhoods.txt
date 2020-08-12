@@ -1,0 +1,21 @@
+﻿Capstone Project - The Battle of Neighborhoods
+
+
+Introduction/Business Problem:
+SuperFit, a new gym company, would like to open a new gym in Paris, France. They would like to open this gym in a district where it would have the least competition.
+
+
+Paris is composed of 20 different districts. SuperFit would like to open its new gym in the district where the number of inhabitants per gym is the highest.
+
+
+Data:
+Competition: We will use the Foursquare API to map the different existing gyms in Paris
+
+
+Paris data: We are going to scrape data from the following wikipedia page (https://fr.wikipedia.org/wiki/Arrondissements_de_Paris) in order to have the number of inhabitants per disctrict
+
+
+We are going to use the JSON file on this page (https://www.data.gouv.fr/en/datasets/arrondissements-1/) in order to map the different disctricts on a Folium map
+
+
+Once we have all those data, we will be able to calculate the number of inhabitants per gym and we will be able to make a proposition to SuperFit about where it could be interesting to open the new gym.
